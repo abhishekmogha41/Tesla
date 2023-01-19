@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main_div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+section {
+  /* background-image: url("../../../public/images/model-3.jpg"); */
+  /* background-image: url("../../../public/images/model-s.jpg");
+  background-image: url("../../../public/images/model-x.jpg");
+  background-image: url("../../../public/images/model-y.jpg");
+  background-image: url("../../../public/images/solar-panel.jpg");
+  background-image: url("../../../public/images/solar-roof.jpg"); */
+
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section .carName {
+  position: relative;
+  top: -10rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+/* .section_para {
+  top: 20rem;
+} */
+.down-arrow {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  bottom: -13rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.buttons {
+  position: relative;
+  top: 11rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+button {
+  margin: 3px;
+  padding: 3px;
+  width: 13rem;
+  height: 2rem;
+}
+
+/* section .buttons .button-group a {
+  padding: 0.5rem 2rem;
+  width: 200px;
+  text-decoration: none;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+} */
+.section_para {
+  padding-bottom: 0.5rem;
+  margin: 2px;
+  border-bottom: 1px;
+}
